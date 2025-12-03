@@ -5,7 +5,18 @@ With more time and access to richer data, here are the improvements and next pri
 
 ---
 
-## 1. Introduce Campaign- and Ad-Level Attribution
+## 1. Expand Beyond Acquisition to Full Customer Lifecycle
+
+The current model focuses on new customer acquisition—the top of the funnel. With additional Salesforce data (customer lifecycle, renewal dates, expansion revenue), I would extend this to track:
+
+- **Customer Retention Rate** - % of customers retained over time
+- **Net Revenue Retention (NRR)** - Revenue growth from existing customers
+- **Customer Lifetime Value (LTV)** - Total predicted revenue per customer
+- **LTV:CAC Ratio** - Unit economics efficiency
+
+This would complete the picture from Scott Chisholm's "4 vital signs": Acquisition + Retention + Financial + Team Health, giving leadership a complete view of sustainable growth.
+---
+## 2. Introduce Campaign- and Ad-Level Attribution
 The current model aggregates performance at the channel level because the datasets do not share joinable campaign or user identifiers.  
 With more granular attribution fields (campaign_id, ad_group, creative), I would extend the model to:
 
@@ -17,7 +28,7 @@ This would turn the funnel from directional → fully actionable.
 
 ---
 
-## 2. Add User- or Session-Level Identity Resolution
+## 3. Add User- or Session-Level Identity Resolution
 The provided data offers no mechanism for tying sessions → leads → opportunities.  
 If lead/contact IDs or hashed emails were available, I would:
 
@@ -29,7 +40,7 @@ This unlocks accurate pipeline influence analytics.
 
 ---
 
-## 3. Introduce Time-Based Logic (Cohorts, Lag Windows)
+## 4. Introduce Time-Based Logic (Cohorts, Lag Windows)
 Today’s funnel aligns metrics at the channel level without temporal constraints.  
 With expanded scope, I would:
 
@@ -41,7 +52,7 @@ This would show how long channels take to convert and where bottlenecks exist.
 
 ---
 
-## 4. Clean & Normalize Channel Naming Conventions
+## 5. Clean & Normalize Channel Naming Conventions
 Real marketing data often includes inconsistent naming (e.g., “google / cpc” vs. “google ads”).  
 With more time, I would:
 
@@ -53,7 +64,7 @@ This improves reporting accuracy and maintainability.
 
 ---
 
-## 5. Add Quality Metrics Beyond Volume
+## 6. Add Quality Metrics Beyond Volume
 Today’s funnel measures pipeline and revenue. With deeper data, I would:
 
 - analyze opportunity quality (stage progression, ACV, win probability)  
@@ -64,7 +75,7 @@ This improves alignment with Sales and Leadership.
 
 ---
 
-## 6. Build Dashboards for Growth + Sales Ops
+## 7. Build Dashboards for Growth + Sales Ops
 Finally, after hardening the data model, I would build dashboards that visualize:
 
 - channel-level efficiency trends  
@@ -76,5 +87,4 @@ This enables both teams to understand performance and make decisions quickly.
 
 ---
 
-Over
 
