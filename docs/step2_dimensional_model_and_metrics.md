@@ -57,7 +57,18 @@ closed_won_opps / total_opps
 ![ERD Diagram](./gtm_funnel_erd.jpg)
 
 
+## Table Grains
 
+**Staging Tables:**
+- `stg_ad_spend`: One row per channel + date + campaign
+- `stg_web_analytics`: One row per channel + date + campaign (aggregated from sessions)
+- `stg_opportunities`: One row per opportunity
+
+**Fact Table:**
+- `fct_channel_funnel`: One row per channel (aggregated across all time)
+
+**Join Logic:**
+The final funnel table uses a UNION of all channels from the three staging models, then left joins each source to ensure complete channel coverage even when channels don't appear in all data sources.
 
 
 
