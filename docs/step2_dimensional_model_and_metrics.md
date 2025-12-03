@@ -13,7 +13,10 @@ The goal is to create a structure that is:
 
 ## Dimensional Model (Channel-Level)
 
-### **Entities & Relationships**
+### Entities & Relationships
 
-Below is a simplified entity-relationship diagram showing how the datasets connect at the **channel** grain:
+
+
+
+
 
