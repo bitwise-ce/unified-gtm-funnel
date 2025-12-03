@@ -14,6 +14,8 @@ The goal is to create a structure that is:
 ## Dimensional Model (Channel-Level)
 
 ### Entities & Relationships
+![ERD Diagram](./gtm_funnel_erd.jpg)
+
 
 
 
