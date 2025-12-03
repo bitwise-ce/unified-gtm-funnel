@@ -10,7 +10,47 @@ The goal is to create a structure that is:
 - optimized for funnel-style reporting.
 
 ---
+## Core GTM Metrics
 
+### 1. Click-Through Rate (CTR)
+**Definition:** Percentage of impressions that result in clicks
+**Calculation:**
+```sql
+clicks / impressions
+```
+**Business use:** Measures ad creative effectiveness
+
+### 2. Cost Per Click (CPC)
+**Definition:** Average cost to acquire a click
+**Calculation:**
+```sql
+spend_usd / clicks
+```
+**Business use:** Efficiency metric for paid channel optimization
+
+### 3. Conversion Rate
+**Definition:** Percentage of sessions that result in conversions
+**Calculation:**
+```sql
+conversions / sessions
+```
+**Business use:** Measures landing page/website effectiveness
+
+### 4. Win Rate
+**Definition:** Percentage of opportunities that close as won
+**Calculation:**
+```sql
+closed_won_opps / total_opps
+```
+**Business use:** Sales efficiency and pipeline quality
+
+### 5. Return on Investment (ROI)
+**Definition:** Net return per dollar spent
+**Calculation:**
+```sql
+(revenue_usd - spend_usd) / spend_usd
+```
+**Business use:** Overall channel profitability
 ## Dimensional Model (Channel-Level)
 
 ### Entities & Relationships
