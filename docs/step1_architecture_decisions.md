@@ -10,7 +10,22 @@ The goal of this project is to build a simple, reliable, and interpretable GTM f
 The architecture is intentionally lightweight. It avoids tooling choices (e.g., dbt, Snowflake warehouse setup) and instead focuses on *clear modeling decisions*, *reproducibility*, and *analytical transparency*.
 
 ---
+## Key Business Questions
 
+Marketing and Sales leadership need answers to:
+
+1. **Which channels deliver the highest return on ad spend?**  
+   Understanding ROI by channel helps prioritize budget allocation and identifies where marketing dollars are working hardest.
+
+2. **Where are conversion bottlenecks in our funnel?**  
+   Identifying stages where prospects drop off (clicks → sessions → conversions → opportunities) reveals optimization opportunities.
+
+3. **How does paid performance compare to organic/direct traffic?**  
+   Quantifying the contribution of paid channels versus non-paid sources informs the overall marketing mix strategy.
+
+4. **Which channels create pipeline vs. revenue?**  
+   Some channels may drive volume but not quality. Understanding both opportunity creation and closed-won revenue helps set appropriate expectations by channel type.
+---
 ## Why a Layered Model?
 
 Although this exercise could be done in a single SQL script, using a layered approach offers clarity:
