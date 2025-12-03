@@ -14,7 +14,6 @@ The current model focuses on new customer acquisition—the top of the funnel. W
 - **Customer Lifetime Value (LTV)** - Total predicted revenue per customer
 - **LTV:CAC Ratio** - Unit economics efficiency
 
-This would complete the picture from Scott Chisholm's "4 vital signs": Acquisition + Retention + Financial + Team Health, giving leadership a complete view of sustainable growth.
 ---
 ## 2. Introduce Campaign- and Ad-Level Attribution
 The current model aggregates performance at the channel level because the datasets do not share joinable campaign or user identifiers.  
