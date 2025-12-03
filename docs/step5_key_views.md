@@ -24,4 +24,8 @@ A high-level view of performance across each channel.
 | Organic        | 0         | 265,000     | N/A |
 | Direct         | 0         | 210,000     | N/A |
 
+## View 3 – Revenue by Channel (Visual)
 
+![Revenue by Channel](./revenue_by_channel.png)
+
+**Key takeaway:** Organic and Direct traffic drive the highest revenue despite zero ad spend, while Google Ads and LinkedIn lead among paid channels. This suggests strong brand awareness and effective paid programs working in tandem.
